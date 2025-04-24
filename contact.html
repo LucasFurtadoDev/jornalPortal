@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jornal.css">
+    <title>Contato - Mock Trial</title>
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('nav-links');
+            nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Contato - <i>Mock Trial</i></h1>
+        <button onclick="toggleMenu()">Menu</button>
+        <nav id="nav-links" style="display: none;">
+            <ul>
+                <li><a href="jornal.html">Jornal</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <section>
+                <div>
+                    <h2>Informações de Contato</h2>
+                    <p>Email: contato@jornaldigital.com</p>          
+                    <p>Telefone: (11) 1234-5678</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Jornal de Notícias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
