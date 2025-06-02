@@ -65,9 +65,7 @@ main {
 
 }
 
-section{
-    margin:30px;
-}
+
 article {
     background: white;
     margin: 20px 0;
@@ -86,4 +84,13 @@ footer {
     position: fixed;
     width: 100%;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+article img {
+    max-width:500px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
 }
